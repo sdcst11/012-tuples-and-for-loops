@@ -1,9 +1,9 @@
 ## SDSS Computing Studies Python Assignment
-### Assignment #004b For Loops (Total Marks 15)
+### Assignment #012 For Loops (Total Marks 15)
 
 Objectives:
-* new variable type: tuple
-* use for loop to iterate through members of a tuple
+* new variable types: tuple and list
+* use for loop to iterate through members of a tuple/list
 * use for loop to iterate over a sequence of integers
 * continue can be used to skip over and keep iterating
 * exit from a for loop using break
@@ -19,10 +19,11 @@ end.
 We can also use code that allows us to treat for loops like a while loop, and
 vice versa!
 
-### Using a TUPLE
-We are going to mention a new variable type here: the TUPLE
+### Using a TUPLE / LIST
+We are going to mention 2 new variable types here: the TUPLE and LIST
+The difference between them is that a TUPLE is read only (can't be changed) and LISTs can have their values changed.  Their use in for loops is identical, and the way that we access member elements is also identical.
 example1.py
-A tuple is a set of data that is defined as having multiple values or members.
+A tuple or list is a set of data that is defined as having multiple values or members.
 It is defined just like a regular variable, but uses brackets to define the 
 beginning and end of the tuple: 
 
